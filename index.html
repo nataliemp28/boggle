@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="js/app.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="css/style.css" media="screen" title="no title">
+  <title>Boggle</title>
+</head>
+<body>
+  <h1>Boggle - the ultimate word building challenge!</h1>
+
+  <div id="container">
+    <div class="dice" id="diceOne"></div>
+    <div class="dice" id="diceTwo"></div>
+    <div class="dice" id="diceThree"></div>
+    <div class="dice" id="diceFour"></div>
+    <div class="dice" id="diceFive"></div>
+    <div class="dice" id="diceSix"></div>
+    <div class="dice" id="diceSeven"></div>
+    <div class="dice" id="diceEight"></div>
+    <div class="dice" id="diceNine"></div>
+    <div class="dice" id="diceTen"></div>
+    <div class="dice" id="diceEleven"></div>
+    <div class="dice" id="diceTwelve"></div>
+    <div class="dice" id="diceThirteen"></div>
+    <div class="dice" id="diceFourteen"></div>
+    <div class="dice" id="diceFifteen"></div>
+    <div class="dice" id="diceSixteen"></div>
+
+  </div>
+
+  <button type="button" id="startButton">Set Board</button>
+  <button type="button" id="clearButton">Clear Board</button>
+
+  <form id="input" action="type_submit">
+    <p>Enter your word below &#8681;</p>
+
+    <div><input type="text" id="playerWord">type here</div>
+
+    <div><button type="submit" id="submitWord">Play Word</button></div>
+    <ul id="list"></ul>
+
+  </form>
+  <!-- <div><button type="button" id="submitWord">Submit Word</button> -->
+</body>
+</html>
